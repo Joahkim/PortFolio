@@ -2,10 +2,13 @@ import React from "react";
 import Slider from "react-slick";
 import styled from "styled-components";
 import DongTracker from "./eachProjects/DongTracker";
+import DongTrackerVideo from "./eachProjects/DongTrackerVideo";
 import Tamna from "./eachProjects/Tamna";
-import WatchClassic from "./eachProjects/WatchClassic";
+import WatchaClassic from "./eachProjects/WatchaClassic";
 import "./slick.scss";
 import "./slick-theme.scss";
+import TamnaVideo from "./eachProjects/TamnaVideo";
+import WatchaClassicVideo from "./eachProjects/WatchaClassicVideo";
 
 const ProjectSlide = () => {
   const settings = {
@@ -19,8 +22,11 @@ const ProjectSlide = () => {
     <SlideBox>
       <Slider {...settings}>
         <DongTracker />
+        <DongTrackerVideo />
         <Tamna />
-        <WatchClassic />
+        <TamnaVideo />
+        <WatchaClassic />
+        <WatchaClassicVideo />
       </Slider>
     </SlideBox>
   );
