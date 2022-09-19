@@ -15,7 +15,7 @@ const DongTracker = () => {
       <MainContents>
         <MainPicture />
         <MainDescription>
-          React를 활용하여 Naver Map에 시각화된 데이터를 나타낸 프로젝트 입니다.
+          React를 활용하여 Naver Map에 시각화된 데이터를 나타낸 프로젝트입니다.
           <br />
           동 단위 경계선부터 동에서 발생하는 모든 매출 데이터를 표현했습니다.
           <br />

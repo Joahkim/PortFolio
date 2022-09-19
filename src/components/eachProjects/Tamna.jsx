@@ -19,12 +19,11 @@ const Tamna = () => {
           <MainPictureKakao />
         </PictureBox>
         <MainDescription>
-          React를 기반으로 Airbnb 웹 페이지를 클론 코딩한 프로젝트 입니다.
+          React를 기반으로 Airbnb 웹 페이지를 클론 코딩한 프로젝트입니다.
           <br />
           공식 문서를 참고하여 카카오톡 소셜 로그인을 구현했습니다.
           <br />
-          모달창 라이브러리를 사용하지 않고 직접 구현하여 네비게이션 바를
-          구현했습니다.
+          Modal 라이브러리를 사용하지 않고 Navigation Bar를 구현했습니다.
           <br />
           <ProjectLink
             href="https://github.com/Joahkim/TamnaBnB.git"

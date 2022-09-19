@@ -17,7 +17,7 @@ const WatchaClassic = () => {
           <MainPictureCarousel />
         </PictureBox>
         <MainDescription>
-          React를 기반으로 왓챠 피디아 웹 페이지를 클론 코딩한 프로젝트 입니다.
+          React를 기반으로 왓챠 피디아 웹 페이지를 클론 코딩한 프로젝트입니다.
           <br />
           다양한 테마의 영화 목록을 Query String을 통해 Carousel로 나타냈습니다.
           <br />
