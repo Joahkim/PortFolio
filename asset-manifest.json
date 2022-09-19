@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.d6656c07.css",
+    "main.js": "/Portfolio/static/js/main.33814d74.js",
+    "static/media/starbucks.gif": "/Portfolio/static/media/starbucks.a241d8cd3ab913ca937e.gif",
+    "static/media/vanilaJS.gif": "/Portfolio/static/media/vanilaJS.3f190e9eb1202548edcd.gif",
+    "static/media/navbar.gif": "/Portfolio/static/media/navbar.9f8dbc71cd479a7263b5.gif",
+    "static/media/kakao.gif": "/Portfolio/static/media/kakao.8e539a012251366fcb6d.gif",
+    "static/media/map2.gif": "/Portfolio/static/media/map2.ba35c99649a663680346.gif",
+    "static/media/habitTracker.gif": "/Portfolio/static/media/habitTracker.c8f0f3b3c3a8c8192584.gif",
+    "static/media/carousel.gif": "/Portfolio/static/media/carousel.6913fe57e4dc470c86ce.gif",
+    "static/media/details.gif": "/Portfolio/static/media/details.12c49e1465da4dc3217b.gif",
+    "static/media/profile.jpg": "/Portfolio/static/media/profile.726bdcaf2caba2bc1d6b.jpg",
+    "static/media/profile_2.jpg": "/Portfolio/static/media/profile_2.cb53ccf168f397faaf51.jpg",
+    "static/media/background.jpg": "/Portfolio/static/media/background.440ae9d912914283a928.jpg",
+    "static/media/dongTrackerLogo.png": "/Portfolio/static/media/dongTrackerLogo.e6aa2b8798d5b16225f6.png",
+    "static/media/watchLogo.png": "/Portfolio/static/media/watchLogo.f8fe11a2c82ec99b6e95.png",
+    "static/media/TamnaLogo.png": "/Portfolio/static/media/TamnaLogo.9076fbf4276f29aeeb35.png",
+    "index.html": "/Portfolio/index.html",
+    "main.d6656c07.css.map": "/Portfolio/static/css/main.d6656c07.css.map",
+    "main.33814d74.js.map": "/Portfolio/static/js/main.33814d74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6656c07.css",
+    "static/js/main.33814d74.js"
+  ]
+}
