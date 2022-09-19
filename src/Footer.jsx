@@ -44,7 +44,7 @@ const ContactsBox = styled.section`
   background-repeat: no-repeat;
   width: 100vw;
   max-width: 100%;
-  height: 30vh;
+  height: 20vh;
 `;
 
 const ContactsWrapper = styled.div`
