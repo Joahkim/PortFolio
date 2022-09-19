@@ -9,7 +9,7 @@ const WatchaClassic = () => {
     <WatchClassicMain>
       <Header>
         <Logo />
-        <Details>클래식 영화 백과사전 사이트 [왓챠 피디아 클론코딩]</Details>
+        <Details>클래식 영화 백과사전 사이트</Details>
       </Header>
       <MainContents>
         <PictureBox>
@@ -17,7 +17,7 @@ const WatchaClassic = () => {
           <MainPictureCarousel />
         </PictureBox>
         <MainDescription>
-          React를 기반으로 왓챠 피디아 웹 페이지를 클론 코딩한 프로젝트입니다.
+          React를 기반으로 왓챠 피디아 웹 페이지를 참고한 프로젝트입니다.
           <br />
           다양한 테마의 영화 목록을 Query String을 통해 Carousel로 나타냈습니다.
           <br />
@@ -60,11 +60,11 @@ const Logo = styled.div`
   background-repeat: no-repeat;
   width: 200px;
   height: 50px;
-  margin: 0 10% 0 8%;
 `;
 
 const Details = styled.h1`
   font-size: 18px;
+  padding-left: 100px;
 `;
 
 const MainContents = styled.section`

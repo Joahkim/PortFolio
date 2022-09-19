@@ -9,9 +9,7 @@ const Tamna = () => {
     <TamnaMainBox>
       <Header>
         <Logo />
-        <Details>
-          제주도 여행객을 위한 제주 숙박 매칭 서비스 [Airbnb 클론코딩]
-        </Details>
+        <Details>제주도 여행객을 위한 제주 숙박 매칭 서비스</Details>
       </Header>
       <MainContents>
         <PictureBox>
@@ -19,7 +17,7 @@ const Tamna = () => {
           <MainPictureKakao />
         </PictureBox>
         <MainDescription>
-          React를 기반으로 Airbnb 웹 페이지를 클론 코딩한 프로젝트입니다.
+          React를 기반으로 Airbnb 웹 페이지를 참고한 프로젝트입니다.
           <br />
           공식 문서를 참고하여 카카오톡 소셜 로그인을 구현했습니다.
           <br />
@@ -60,7 +58,7 @@ const Logo = styled.div`
   background-repeat: no-repeat;
   width: 200px;
   height: 50px;
-  margin: 0 10% 0 15%;
+  margin: 0 10% 0 5%;
 `;
 
 const Details = styled.h1`

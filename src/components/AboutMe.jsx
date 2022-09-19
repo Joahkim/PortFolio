@@ -14,16 +14,26 @@ const AboutMe = ({ aboutMe }) => {
         <MyIntroduction>
           안녕하세요! 프론트엔드 개발자 김은경입니다.
           <br /> 밝고 쾌활한 성격으로 긍정적인 에너지를 공유합니다.
-          이화여자대학교에서 체육학을 전공했으며 교환학생, 미국에서의 인턴,
-          캐나다 영주권 취득 등의 경험으로 항상 새로운 도전을 통해 성취감을
-          느낍니다. <br />
+          이화여자대학교에서 <br />
+          체육학을 전공했으며 교환학생, 해외 인턴, 캐나다 영주권 취득 등의
+          다양한 경험으로 <br />
+          새로운 도전을 통해 성취감을 느낍니다.
           <br />
-          이전 직무는 마케터였으며 동료 개발자의 컴퓨터 화면의 작은 글씨들이 웹
-          페이지로 만들어진다는 사실에 흥미가 생겨 조금씩 코딩을 시작했습니다.
-          도전 정신과 목표 의식이 강한 제게 항상 어려움과 새로움을 던져주는
-          프로그래밍을 통해 성장한 저를 발견할 수 있어 개발자로 직무 전환을
-          결심했습니다. 앞으로의 목표는 사용자와 소통하며 서비스의 가치를 온전히
-          전달하는 개발자가 되는 것입니다!
+          <br />
+          이전 직무는 마케터였으며 동료 개발자의 컴퓨터 화면의 작은 글씨가 웹
+          페이지로
+          <br /> 만들어진다는 사실에 흥미가 생겨 조금씩 코딩을 시작했습니다.
+          도전 정신과 <br />
+          목표 의식이 강한 제게 프로그래밍은 항상 어려움과 새로움을 던져줍니다.
+          <br />
+          그로 인해 성장한 저를 발견할 수 있어 개발자로 직무 전환을
+          결심했습니다.
+          <br />
+          <br />
+          <b>
+            앞으로의 목표는 사용자와 소통하며 <br />
+            서비스의 가치를 온전히 전달하는 개발자가 되는 것입니다!
+          </b>
           <br />
           <br />
           TMI : #배드민턴 #수영 #등산 #골프 #자전거 #즐거운 대화 #커피
@@ -39,7 +49,7 @@ const AboutMePage = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 100vw;
   height: 100vh;
   max-width: 100%;
@@ -48,7 +58,7 @@ const AboutMePage = styled.section`
 
 const ContextBox = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   width: 70%;
   height: 80%;
@@ -65,8 +75,10 @@ const MyPhoto = styled.div`
 `;
 
 const MyIntroduction = styled.p`
-  font-size: 18px;
-  max-width: 51%;
+  margin-left: 10px;
+  font-size: 16px;
+  max-width: 55%;
   line-height: 2;
   text-align: start;
+  //background: red;
 `;

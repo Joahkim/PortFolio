@@ -5,11 +5,11 @@ import starbucks from "../../assets/starbucks.gif";
 const ToyStarBucks = () => {
   return (
     <ToyStarBucksBox>
-      <ToyTitle>Starbucks Clone Coding</ToyTitle>
+      <ToyTitle>Starbucks Toy Project</ToyTitle>
       <GifWrapper>
         <ToyGif />
       </GifWrapper>
-      <ToyDescription>스타벅스 코리아 클론 코딩</ToyDescription>
+      <ToyDescription>스타벅스 코리아 참고한 프로젝트</ToyDescription>
       <ToyCode href="https://github.com/Joahkim/starbucks.git" target="_blank">
         코드 보기
       </ToyCode>
