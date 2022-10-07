@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.d6656c07.css",
-    "main.js": "/Portfolio/static/js/main.b08afcca.js",
+    "main.js": "/Portfolio/static/js/main.2f0f96fd.js",
     "static/media/starbucks.gif": "/Portfolio/static/media/starbucks.a241d8cd3ab913ca937e.gif",
     "static/media/introduction.gif": "/Portfolio/static/media/introduction.3f190e9eb1202548edcd.gif",
     "static/media/navbar.gif": "/Portfolio/static/media/navbar.9f8dbc71cd479a7263b5.gif",
@@ -10,6 +10,7 @@
     "static/media/habitTracker.gif": "/Portfolio/static/media/habitTracker.c8f0f3b3c3a8c8192584.gif",
     "static/media/carousel.gif": "/Portfolio/static/media/carousel.6913fe57e4dc470c86ce.gif",
     "static/media/details.gif": "/Portfolio/static/media/details.12c49e1465da4dc3217b.gif",
+    "static/media/tube.gif": "/Portfolio/static/media/tube.df57c16eeff0cae9aab6.gif",
     "static/media/profile.jpg": "/Portfolio/static/media/profile.726bdcaf2caba2bc1d6b.jpg",
     "static/media/profile_2.jpg": "/Portfolio/static/media/profile_2.cb53ccf168f397faaf51.jpg",
     "static/media/background.jpg": "/Portfolio/static/media/background.440ae9d912914283a928.jpg",
@@ -18,10 +19,10 @@
     "static/media/TamnaLogo.png": "/Portfolio/static/media/TamnaLogo.9076fbf4276f29aeeb35.png",
     "index.html": "/Portfolio/index.html",
     "main.d6656c07.css.map": "/Portfolio/static/css/main.d6656c07.css.map",
-    "main.b08afcca.js.map": "/Portfolio/static/js/main.b08afcca.js.map"
+    "main.2f0f96fd.js.map": "/Portfolio/static/js/main.2f0f96fd.js.map"
   },
   "entrypoints": [
     "static/css/main.d6656c07.css",
-    "static/js/main.b08afcca.js"
+    "static/js/main.2f0f96fd.js"
   ]
 }
