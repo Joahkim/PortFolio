@@ -3,6 +3,7 @@ import styled from "styled-components";
 import introduction from "../../assets/introduction.gif";
 import habitTracker from "../../assets/habitTracker.gif";
 import starbucks from "../../assets/starbucks.gif";
+import tube from "../../assets/tube.gif";
 
 const PROJECT_DETAILS = [
   {
@@ -32,10 +33,10 @@ const PROJECT_DETAILS = [
   {
     id: "Youtube",
     toyTitle: "My Youtube",
-    toyGif: starbucks,
-    toyDescription: "Youtube API 영상 검색",
+    toyGif: tube,
+    toyDescription: "Youtube API를 활용한 나만의 유튜브",
     codeHref: "https://github.com/Joahkim/My-Youtube.git",
-    pageHref: "https://joahkim.github.io/starbucks/",
+    pageHref: "https://joahkim.github.io/My-Youtube/",
   },
 ];
 
