@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ToyAboutMe from "./eachToyProjects/ToyAboutMe";
-import ToyHabitTracker from "./eachToyProjects/ToyHabitTracker";
-import ToyStarBucks from "./eachToyProjects/ToyStarBucks";
+import EachToyProjects from "./eachToyProjects/EachToyProjects";
 import * as S from "./commonSC";
 
 const ToyProjects = ({ toyProjects }) => {
@@ -12,9 +10,7 @@ const ToyProjects = ({ toyProjects }) => {
         <S.Header>TOY PROJECTS</S.Header>
       </S.HeaderBox>
       <ToyProjectsBox>
-        <ToyAboutMe />
-        <ToyHabitTracker />
-        <ToyStarBucks />
+        <EachToyProjects />
       </ToyProjectsBox>
     </ToyProjectsPage>
   );

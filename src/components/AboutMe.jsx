@@ -13,8 +13,9 @@ const AboutMe = ({ aboutMe }) => {
         <MyPhoto />
         <MyIntroduction>
           <b>안녕하십니까!</b>
-          <br /> "밝고 쾌활한 성격으로 긍정적인 에너지를 공유하는" 프론트엔드
-          개발자 김은경입니다.
+          <br />
+          "밝고 쾌활한 성격으로 긍정적인 에너지를 공유하는" 프론트엔드 개발자
+          김은경입니다.
           <br /> 이화여자대학교에서 체육학을 전공했으며 교환학생, 미국에서의
           인턴, 캐나다 영주권 취득 등의 다양한 경험이 있습니다. 항상 새로운
           도전을 통해 성취감을 느낍니다.
@@ -24,8 +25,8 @@ const AboutMe = ({ aboutMe }) => {
           페이지로
           <br /> 만들어진다는 사실에 흥미가 생겨 조금씩 코딩을 시작했습니다.
           도전 정신과 목표 의식이 강한 제게 항상 어려움과 새로움을 던져주는
-          프로그래밍을 통해 성장한 저를 발견할 수<br /> 있었고 개발자로 직무
-          전환을 결심한 계기가 되었습니다.
+          프로그래밍을 통해 성장한 저를 발견할 수 있었고 개발자로 직무 전환을
+          결심한 계기가 되었습니다.
           <br />
           <br />
           <b>
@@ -75,7 +76,7 @@ const MyPhoto = styled.div`
 const MyIntroduction = styled.p`
   margin-left: 10px;
   font-size: 16px;
-  max-width: 55%;
+  max-width: 56%;
   line-height: 2;
   text-align: start;
   //background: red;

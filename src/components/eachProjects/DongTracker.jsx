@@ -7,10 +7,15 @@ const DongTracker = () => {
   return (
     <DongTrackerBox>
       <Header>
-        <Logo />
-        <Details>
-          서울시 강남구, 서초구의 동 단위 매장별 배달 및 매출 데이터 조회 서비스
-        </Details>
+        <LogoBox>
+          <Logo />
+        </LogoBox>
+        <DetailsBox>
+          <Details>
+            서울시 강남구, 서초구의 동 단위 매장별 배달 및 매출 데이터 조회
+            서비스
+          </Details>
+        </DetailsBox>
       </Header>
       <MainContents>
         <MainPicture />
@@ -42,12 +47,21 @@ const DongTrackerBox = styled.section`
   align-items: center;
   width: 100%;
 `;
+
 const Header = styled.section`
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-end;
   width: 100%;
   height: 10%;
+`;
+
+const LogoBox = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
 `;
 
 const Logo = styled.div`
@@ -55,8 +69,15 @@ const Logo = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   width: 200px;
-  height: 50px;
-  margin: 0 10% 0 15%;
+  height: 80px;
+`;
+
+const DetailsBox = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
 `;
 
 const Details = styled.h1`
@@ -65,7 +86,6 @@ const Details = styled.h1`
 
 const MainContents = styled.section`
   display: flex;
-
   justify-content: space-evenly;
   width: 100%;
   height: 100%;
@@ -76,7 +96,7 @@ const MainPicture = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   width: 500px;
-  height: 300px;
+  height: 350px;
 `;
 
 const MainDescription = styled.p`

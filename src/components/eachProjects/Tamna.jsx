@@ -8,8 +8,12 @@ const Tamna = () => {
   return (
     <TamnaMainBox>
       <Header>
-        <Logo />
-        <Details>제주도 여행객을 위한 제주 숙박 매칭 서비스</Details>
+        <LogoBox>
+          <Logo />
+        </LogoBox>
+        <DetailsBox>
+          <Details>제주도 여행객을 위한 제주 숙박 매칭 서비스</Details>
+        </DetailsBox>
       </Header>
       <MainContents>
         <PictureBox>
@@ -47,9 +51,17 @@ const TamnaMainBox = styled.section`
 const Header = styled.section`
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-end;
   width: 100%;
   height: 10%;
+`;
+
+const LogoBox = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
 `;
 
 const Logo = styled.div`
@@ -57,8 +69,15 @@ const Logo = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   width: 200px;
-  height: 50px;
-  margin: 0 10% 0 5%;
+  height: 80px;
+`;
+
+const DetailsBox = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
 `;
 
 const Details = styled.h1`

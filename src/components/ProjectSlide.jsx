@@ -2,13 +2,13 @@ import React from "react";
 import Slider from "react-slick";
 import styled from "styled-components";
 import DongTracker from "./eachProjects/DongTracker";
-import DongTrackerVideo from "./eachProjects/DongTrackerVideo";
+import ProjectsVideo from "./eachProjects/ProjectsVideo";
 import Tamna from "./eachProjects/Tamna";
 import WatchaClassic from "./eachProjects/WatchaClassic";
 import "./slick.scss";
 import "./slick-theme.scss";
-import TamnaVideo from "./eachProjects/TamnaVideo";
-import WatchaClassicVideo from "./eachProjects/WatchaClassicVideo";
+//import TamnaVideo from "./eachProjects/TamnaVideo";
+//import WatchaClassicVideo from "./eachProjects/WatchaClassicVideo";
 
 const ProjectSlide = () => {
   const settings = {
@@ -22,11 +22,11 @@ const ProjectSlide = () => {
     <SlideBox>
       <Slider {...settings}>
         <DongTracker />
-        <DongTrackerVideo />
+        <ProjectsVideo links={VIDEO_LINKS[0].src} />
         <Tamna />
-        <TamnaVideo />
+        <ProjectsVideo links={VIDEO_LINKS[1].src} />
         <WatchaClassic />
-        <WatchaClassicVideo />
+        <ProjectsVideo links={VIDEO_LINKS[2].src} />
       </Slider>
     </SlideBox>
   );
@@ -42,3 +42,18 @@ const SlideBox = styled.section`
   height: 100%;
   //background-color: pink;
 `;
+
+const VIDEO_LINKS = [
+  {
+    id: "Dongtracker",
+    src: "https://www.youtube.com/embed/VTUndrwlGDY",
+  },
+  {
+    id: "Tamna",
+    src: "https://www.youtube.com/embed/KrNgg5SGiA4",
+  },
+  {
+    id: "watcha",
+    src: "https://www.youtube.com/embed/6tvXTtYyX_I",
+  },
+];

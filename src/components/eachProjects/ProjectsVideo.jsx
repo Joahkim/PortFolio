@@ -1,19 +1,19 @@
 import React from "react";
 
-const TamnaVideo = () => {
+const ProjectsVideo = ({ links }) => {
   return (
     <div>
       <iframe
         width="800"
         height="500"
-        src="https://www.youtube.com/embed/KrNgg5SGiA4"
+        src={links}
         title="YouTube video player"
-        frameborder="0"
+        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen="allowfullscreen"
-      ></iframe>
+        allowFullScreen="allowfullscreen"
+      />
     </div>
   );
 };
 
-export default TamnaVideo;
+export default ProjectsVideo;
